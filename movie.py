@@ -20,11 +20,11 @@ from sklearn.feature_extraction.text import CountVectorizer
 # In[3]:
 
 
-movies=pd.read_csv('C:/Users/HP/Desktop/my project/movies.csv')
-tags=pd.read_csv('C:/Users/HP/Desktop/my project/tags.csv')
-ratings=pd.read_csv('C:/Users/HP/Desktop/my project/ratings.csv')
-links=pd.read_csv('C:/Users/HP/Desktop/my project/links.csv')
-move=pd.read_csv('C:/Users/HP/Desktop/my project/movies.csv')
+movies=pd.read_csv('movies.csv')
+tags=pd.read_csv('tags.csv')
+ratings=pd.read_csv('ratings.csv')
+links=pd.read_csv('links.csv')
+move=pd.read_csv('movies.csv')
 
 
 # In[4]:
