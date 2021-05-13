@@ -87,7 +87,7 @@ for i in range(500):
 
 st.title("Movie Recommendation System")
 from PIL import Image
-img=Image.open("C:/Users/HP/Desktop/film.jpg")
+img=Image.open("film.jpg")
 st.image(img,width=300)
 
 film=st.text_input("Enter your movie name")
